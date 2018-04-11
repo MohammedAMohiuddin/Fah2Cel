@@ -9,8 +9,9 @@ public class Fah2Cel {
 		Scanner sc = new Scanner(System.in);
 		double Fahrenheit = sc.nextDouble();
 		double Celsius = ((Fahrenheit - 32) / 1.8);
-		System.out.println("Celsius: " + Celsius);
-
+		System.out.println("Celsius: " + Celsius + " C");
+		sc.close();
+		
 	}
 
 }
